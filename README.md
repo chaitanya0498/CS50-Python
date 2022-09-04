@@ -17,3 +17,4 @@ real-world programming problems. No software required except for a web browser, 
 
 
 P.S. I am trying to set up this repo to have restricted access, and I do not intend to provide solutions to the students taking the course.
+The reason this repo is public is because I wanted to share it with potential recruiters. Its visibility will be changed back to private soon.

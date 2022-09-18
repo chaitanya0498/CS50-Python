@@ -4,13 +4,12 @@ SPECIFICATIONS
 
 1. DEEP THOUGHT
    In `deep.py`, implement a program that prompts the user for the answer to the Great Question of Life, the Universe and Everything, outputting `Yes` if the user inputs `42` or (case-insensitively) `forty-two` or `forty two`. Otherwise output `No`.
-2. HOME FEDERAL SAVINGS BANK
+3. HOME FEDERAL SAVINGS BANK
 
 In [season 7, episode 24](https://en.wikipedia.org/wiki/The_Invitations) of [Seinfeld](https://en.wikipedia.org/wiki/Seinfeld), [Kramer](https://en.wikipedia.org/wiki/Cosmo_Kramer)
  visits a bank that promises to give $100 to anyone who isn’t greeted with a “hello.” Kramer is instead greeted with a “hey,” which he insists isn’t a “hello,” and so he asks for $100. The bank’s manager proposes a compromise: “You got a greeting that starts with an ‘h,’ how does $20 sound?” Kramer accepts.
 
 In a file called `bank.py`, implement a program that prompts the user for a greeting. If the greeting starts with “hello”, output `$0`. If the greeting starts with an “h” (but not “hello”), output `$20`. Otherwise, output `$100`. Ignore any leading whitespace in the user’s greeting, and treat the user’s greeting case-insensitively.
-
 
 3. FILE EXTENSIONS
 
@@ -33,7 +32,6 @@ In a file called `extensions.py`,
 
 If the file’s name ends with some other suffix or has no suffix at all, output `application/octet-stream` instead, which is a common default.
 
-
 4. MATH INTERPRETER
 
 In a file called `interpreter.py`, implement a program that prompts the user for an arithmetic expression and then calculates and outputs the result as a floating-point value
@@ -44,7 +42,6 @@ formatted to one decimal place. Assume that the user’s input will be formatted
 * `z` is an integer
 
 For instance, if the user inputs `1 + 1`, your program should output `2.0`. Assume that, if `y` is `/`, then `z` will not be `0`.
-
 
 5. MEAL TIME
 
@@ -64,7 +61,6 @@ def convert(time):
 if __name__ == "__main__":
     main()
 ```
-
 
 Link to the lesson
 

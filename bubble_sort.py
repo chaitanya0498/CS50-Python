@@ -13,10 +13,11 @@ def bubble_sort(list):
 list = []
 n = int(input("Enter number of elements: "))
 for i in range(0, n):
+    print("Now enter a number for the list and press enter after each number")
     ele = int(input())
 
     list.append(ele)
 
 # input("Type in the list of numbers separated by a comma: ")
 bubble_sort(list)
-print(l)
+print(list)
